@@ -1,0 +1,183 @@
+/* Reset */
+a {
+  text-decoration: none;
+}
+
+/**
+ * Remove list-style
+ */
+
+ol,
+ul {
+  list-style: none;
+}
+
+html,
+body,
+div,
+span,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+a,
+em,
+img,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+article,
+footer,
+header,
+nav,
+section,
+main {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+ul {
+  font-size: 1em;
+  font-weight: normal;
+}
+
+.container {
+  display: flex;
+  width: 900px;
+  margin: 0 auto;
+  padding: 0px;
+}
+
+/* FONTES */
+
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Lexend+Deca&display=swap");
+
+body {
+  background-color: #f3f5f7;
+}
+
+.header {
+  background: linear-gradient(90deg, #574ae8 0%, #3ea1db 100%);
+  display: flex;
+  place-content: center;
+  width: 100%;
+  height: 250px;
+  margin-bottom: 100px;
+}
+
+.itens {
+  position: absolute;
+  margin: 40px auto 40px auto;
+  height: 168px;
+  width: 900px;
+  display: block;
+}
+
+.itens p {
+  display: flex;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo p {
+  line-height: 30px;
+  font-size: 24px;
+  font-family: "Lexend Deca", sans-serif;
+  color: #fff;
+}
+
+.busca {
+  margin-top: 73px;
+  display: flex;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+}
+
+.busca img {
+  padding: 20px;
+}
+
+.busca input {
+  border: none;
+  background: none;
+  color: #fff;
+  padding: 20px 20px 20px 0;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  outline: none;
+  width: 900px;
+}
+
+.busca input::placeholder {
+  color: #fff;
+  opacity: 50%;
+}
+
+.noticia {
+  background-color: #fff;
+  border-radius: 5px;
+  margin: 0 auto;
+  width: 900px;
+  padding: 25px;
+  margin-bottom: 50px;
+}
+
+.noticia .data {
+  font-family: "Lexend Deca";
+  font-size: 16px;
+  line-height: 20px;
+  color: #b6b6b6;
+  display: flex;
+  justify-content: space-between;
+}
+
+.noticia .data img {
+  cursor: pointer;
+}
+
+.noticia h1 {
+  font-family: "Lexend Deca";
+  line-height: 32.5px;
+  color: #313131;
+  font-size: 26px;
+  margin: 22px 0 8px 0;
+  font-weight: bold;
+}
+
+.noticia-p {
+  font-family: "Lexend Deca";
+  font-size: 18px;
+  line-height: 32px;
+  color: #b6b6b6;
+}
+
+.footer {
+  margin-top: 75px;
+}
