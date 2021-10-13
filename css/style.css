@@ -114,6 +114,7 @@ body {
 }
 
 .busca {
+  position: relative;
   margin-top: 73px;
   display: flex;
   background: rgba(255, 255, 255, 0.2);
@@ -160,6 +161,12 @@ body {
 
 .noticia .data img {
   cursor: pointer;
+  transform: scale(0.8);
+}
+.noticia .data img:hover {
+  cursor: pointer;
+  transform: scale(1);
+  transition: 0.3s;
 }
 
 .noticia h1 {
@@ -172,6 +179,7 @@ body {
 }
 
 .noticia-p {
+  word-break: break-all;
   font-family: "Lexend Deca";
   font-size: 18px;
   line-height: 32px;
@@ -180,4 +188,8 @@ body {
 
 .footer {
   margin-top: 75px;
+}
+
+.deulike {
+  background: url(../img/deulike.png);
 }
