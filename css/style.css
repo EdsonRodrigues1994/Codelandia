@@ -90,11 +90,10 @@ body {
 }
 
 .itens {
-  position: absolute;
+  position: relative;
   margin: 40px auto 40px auto;
   height: 168px;
   width: 900px;
-  display: block;
 }
 
 .itens p {
@@ -148,6 +147,12 @@ body {
   width: 900px;
   padding: 25px;
   margin-bottom: 50px;
+  transform: scale(0.9);
+  transition: 0.5s;
+}
+
+.noticia:hover {
+  transform: scale(1);
 }
 
 .noticia .data {
@@ -172,10 +177,13 @@ body {
 .noticia h1 {
   font-family: "Lexend Deca";
   line-height: 32.5px;
-  color: #313131;
   font-size: 26px;
   margin: 22px 0 8px 0;
   font-weight: bold;
+  background-image: linear-gradient(90deg, #574ae8 0%, #3ea1db 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .noticia-p {
@@ -188,8 +196,4 @@ body {
 
 .footer {
   margin-top: 75px;
-}
-
-.deulike {
-  background: url(../img/deulike.png);
 }

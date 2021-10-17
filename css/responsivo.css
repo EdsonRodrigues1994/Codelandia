@@ -1,0 +1,82 @@
+/* Responsividade para celulares */
+
+@media only screen and (max-width: 787px) {
+  .header {
+    height: 200px;
+    margin-bottom: 50px;
+  }
+
+  .itens {
+    width: 414px;
+  }
+
+  .logo p {
+    font-size: 18px;
+    margin: 0 20px;
+  }
+
+  .busca {
+    height: 40px;
+    width: 374px;
+    margin: 40px 20px;
+  }
+
+  .busca img {
+    padding: 12px;
+  }
+
+  .busca input {
+    font-size: 14px;
+  }
+
+  .noticia {
+    width: 480px;
+    transform: scale(1);
+    margin: 25px auto;
+  }
+
+  .noticia:hover {
+    transform: scale(1);
+  }
+
+  .noticia .data {
+    display: flex;
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .noticia h1 {
+    font-size: 18px;
+    line-height: 22px;
+    margin: 27px 0 9px 0;
+  }
+
+  .noticia p {
+    font-size: 14px;
+    line-height: 26px;
+  }
+}
+
+/* Responsividade para tablet */
+
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+  .itens {
+    width: 600px;
+  }
+
+  .noticia {
+    width: 600px;
+  }
+
+  .noticia .data {
+    display: flex;
+  }
+
+  .noticia h1 {
+    font-size: 24px;
+  }
+
+  .noticia p {
+    font-size: 16px;
+  }
+}
