@@ -156,7 +156,7 @@ body {
 }
 
 .noticia .data {
-  font-family: "Lexend Deca";
+  font-family: "Lexend Deca", sans-serif;
   font-size: 16px;
   line-height: 20px;
   color: #b6b6b6;
@@ -175,7 +175,7 @@ body {
 }
 
 .noticia h1 {
-  font-family: "Lexend Deca";
+  font-family: "Lexend Deca", sans-serif;
   line-height: 32.5px;
   font-size: 26px;
   margin: 22px 0 8px 0;
@@ -188,7 +188,7 @@ body {
 
 .noticia-p {
   word-break: break-all;
-  font-family: "Lexend Deca";
+  font-family: "Lexend Deca", sans-serif;
   font-size: 18px;
   line-height: 32px;
   color: #b6b6b6;
